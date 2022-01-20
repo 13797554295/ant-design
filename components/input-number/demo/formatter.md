@@ -36,8 +36,8 @@ ReactDOM.render(
       defaultValue={100}
       min={0}
       max={100}
-      formatter={value => `${value}%`}
-      parser={value => value.replace('%', '')}
+      formatter={value => `${value}s`}
+      parser={value => value.replace('s', '')}
       onChange={onChange}
     />
   </Space>,
